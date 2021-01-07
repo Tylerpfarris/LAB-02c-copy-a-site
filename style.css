@@ -1,0 +1,153 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1.5fr 1fr 5fr 10fr ;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    flex-grow: 1;
+    height: 60px;
+}
+
+    .SB1 {
+        background-color: teal;
+        flex-grow: 1;
+    }
+
+    .SB2 {
+        background-color: rgb(243, 100, 4);
+        flex-grow: 1;
+    }
+    .SB3 {
+        background-color: rgb(221, 27, 60);
+        flex-grow: 4;
+    }
+    .SB4 {
+        background-color: rgb(29, 192, 42);
+        flex-grow: 3;
+    }
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    height: 45px;
+}
+
+    .NB1 {
+    background-color: rgb(88, 4, 243);
+    flex-grow: 1;
+}
+
+.NB2 {
+    background-color: rgb(27, 219, 53);
+    flex-grow: 12;
+}
+
+
+.NB3 {
+    background-color: rgb(230, 10, 10);
+    flex-grow: 2;
+}
+
+.widget-space {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(236, 112, 10);
+    height: 250px;
+}
+
+.WS1 {
+    background-color: salmon;
+    flex-grow: 1;
+}
+
+.WS2 {
+    background-color: rgb(245, 6, 117);
+    flex-grow: 10.5;
+}
+
+.WS3 {
+    background-color: salmon;
+    flex-grow: 1;
+}
+
+
+.grid-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    background-color: violet;
+
+   padding-top: 20px;
+   padding-bottom: 20px;
+   line-height: 19px;
+
+
+    
+}
+
+.GI1 {
+   background-color: rgb(173, 114, 250);
+    margin: 10px;
+    flex-wrap:wrap;
+    display: block;
+    position: relative;
+    background-size: auto;
+    justify-self: center;
+    align-self: center;
+    padding: 20px 10px 15px 10px;
+    
+   
+}
+
+
+
+.GI2 {
+    background-color: rgb(114, 146, 250);
+    flex-wrap:wrap;
+   display: block;
+    position: relative;
+    background-size: auto;
+    justify-self: center;
+    align-self: center;
+    padding: 20px 10px 15px 10px;
+}
+
+.GI3 {
+    background-color: rgb(173, 114, 250);
+    margin: 10px;
+    flex-wrap:wrap;
+    display: block;
+    position: relative;
+    background-size: auto;
+    justify-self: center;
+    align-self: center;
+    padding: 20px 10px 15px 10px;
+}
+
+.GI4 {
+    background-color: rgb(114, 184, 250);
+      flex-wrap:wrap;
+    margin: 10px;
+    display: block;
+    position: relative;
+    background-size: auto;
+    justify-self: center;
+    align-self: center;
+    padding: 20px 10px 15px 10px;
+}
